@@ -20,7 +20,7 @@ export const Destination = () => {
            image="./assets/6.png"
             heading=" New York The City that Never Sleeps"
             brief="New York, also referred to as the Big Apple, is a renowned global hub that has impressed people worldwide with its remarkable architecture, art, and cinema. The city is famous for its breathtaking skyscrapers, Broadway productions, and impressive landmarks, making it an ideal destination for travelers from around the world.
-            With its bright neon lights, bustling Times Square, towering Wall Street buildings, and lush Central Park, New York City's energy and vibrancy are simply extraordinary. Must-see attractions include world-class museums like MoMA and iconic landmarks such as the Statue of Liberty. Broadway shows, culturally diverse neighborhoods, trendy bars and restaurants, and charming brownstone-lined streets add to the dynamic urban atmosphere."
+            With its bright neon light."
            />
 
         </div>   

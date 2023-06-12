@@ -38,7 +38,7 @@ export const Trip = () => {
             <Tripdata
             image="./assets/12.png"
             hed="Barcelona "
-            para="Located in north-eastern Spain, Barcelona is the country's second largest city. It is also the capital and the largest city of Catalonia. It is situated along the Mediterranean coast and its towering mountains bless the city with perfect backdrop. The city is filled with galleries, museums, medieval monuments and many other special attractions. It is also a major commercial and industrial centre. Its long sandy beaches and lush green parks attract tourists from all over the world. The city is specifically popular for its architectural marvels from architect Antoni Gaudi, its food and irresisitable nightlife.."
+            para="Located in north-eastern Spain, Barcelona is the country's second largest city. It is also the capital and the largest city of Catalonia. It is situated along the Mediterranean coast and its towering mountains bless the city with perfect backdrop. The city is filled with galleries, museums, medieval monuments and many other special attractions. It is also a major commercial and industrial centre. ."
             />
         </div>
 
