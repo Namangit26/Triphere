@@ -1,0 +1,29 @@
+p{
+    
+    font-size: 1.3rem;
+}
+.aboutcntnt{
+    margin: 4rem 6rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    gap: 30px;
+}
+.aboutcntnt h1{
+    padding-bottom: 1rem;
+}
+.aboutcntnt h1{
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 850px){
+    .aboutcntnt{
+        margin: 4rem 2rem;
+    }    
+}
+@media screen and (max-width: 450px){
+    .aboutcntnt{
+        margin: 1rem 1rem;
+    }    
+}

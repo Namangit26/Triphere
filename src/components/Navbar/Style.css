@@ -1,0 +1,111 @@
+.listitems{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+.navbaritems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px  rgba(0, 0,0,.60);
+    min-width: 100%;
+    height: 10vh;
+    position: relative;
+    border-radius: 10px;
+    overflow: auto;
+    z-index: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list{
+    display: flex;
+    justify-content:space-between;
+    gap: 40px;
+    padding: 5px 30px;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    font-size: 2.5rem;
+
+}
+.links{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 5px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.listitems{
+    padding: 4px 4px;
+}
+.app__navbar-smallscreen{
+    display: none;
+}
+.listitems:hover{
+    background-color:rgb(109, 109, 226);
+    transition: all 0.2s ease-in-out;
+    
+    color: white;
+    border-radius: 4px;
+}
+.hamburger{
+    margin-left: 20px;
+    display: none;
+}
+.links{
+    color: black;
+}
+.links:hover{
+    color: white;
+}
+@media screen and (max-width: 800px){
+
+    .app__navbar-smallscreen{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+    .navbaritems{
+        padding: 0 50px;
+    }
+    
+}
+.app__navbar-smallscreen_overlay .overlay__close {
+  
+    font-size: 27px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black
+}
+.app__navbar-smallscreen_overlay {
+    position: fixed;
+    background: rgb(235, 228, 163);
+    font-weight: 700;
+    font-size: 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    transition: .5s ease;
+    flex-direction: column;
+    
+}
+.appsmallscreenlink .links{
+    font-size: 30px;
+}
+.cntr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;  
+
+    
+}
